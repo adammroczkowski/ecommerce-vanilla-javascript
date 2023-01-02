@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+a,
+button {
+  cursor: revert;
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-bottom: 1px solid hsl(223, 64%, 98%);
+  border-top: 1px solid hsl(223, 64%, 98%);
+  }
+  h1 {
+    color: hsl(26, 100%, 55%);
+  }
+  
+  .nav > ul {
+    display: flex;
+    gap: 1rem;
+  }
+  i{
+    font-size: 30px;
+  }
+  .number-in-cart{
+    background-color: hsl(26, 78%, 46%);
+    border-radius: 5px;
+    position: relative;
+    bottom: 20px;
+    right: 12px;
+    display:inline-block;
+    width: 20px;
+    text-align: center;
+    
+  }
+
+
+
+  .close-cart {
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .cart-img-product {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+  .product-side-header {
+    margin-top: 50px;
+  }
+  
+  .cart-single-product {
+    display: flex;
+    background-color: white;
+  
+    border: 1px solid black;
+    position: relative;
+  }
+  h5 {
+    margin: 1rem 0.5rem;
+  }
+  h2 {
+    margin: 1rem 0 2rem 0;
+  }
+  .cart-product-title {
+    width: 150px;
+  }
+  .remove-product {
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+
+  /* CART */
+
+  .cart-total-cost{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .total-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /* top header */
+
+.header-top .container,
+.header-main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo { margin-bottom: 0; }
+
+.header-top-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-social-container{
+display: flex;
+}
+
+
+.header-top-actions select {
+border: none;
+display: block;
+min-width: 80px;
+padding: 5px 0;
+font: inherit;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+.social-link {
+color: black;
+font-size: 20px;
+padding: 10px;
+border-radius: 10px
+}
