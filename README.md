@@ -3,7 +3,7 @@
 
 Vanilla JavaScript Ecommerce is a project I developed with Vanilla JavaScript to improve my JavaScript skills.
 
-
+[DEMO LIVE](https://e-commerce-vanilla-javascript.netlify.app)
 
 Implemented features:
 - adding products to the cart
